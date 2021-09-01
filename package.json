@@ -1,0 +1,30 @@
+{
+  "name": "bakery",
+  "version": "1.0.0",
+  "description": "Bakery System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarianaPH/Bakery-System.git"
+  },
+  "author": "Mariana PH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarianaPH/Bakery-System/issues"
+  },
+  "homepage": "https://github.com/MarianaPH/Bakery-System#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mongoose": "^6.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
