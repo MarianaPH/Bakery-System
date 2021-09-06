@@ -1,0 +1,26 @@
+1 home:
+  -pictures  
+  -menu 
+  -about
+  -information: numbers, email, work hours, direction/map, contact form, Q&A, payment and shipment information 
+
+2 sections: 
+  -every section takes you to the gallery you want
+  -every picture show information about the cake
+
+3 auth:
+- authenticate user & get token
+
+4 user:
+  -register
+  -account with information(name, direction, payment info)
+  -define role: admin
+    -calendar/orders
+    -schedule
+    -add or delete something about the menu
+    -todo list
+
+5 blog: 
+  -Add post
+  -Delete post
+  -Open post 
