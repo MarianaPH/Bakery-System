@@ -3,15 +3,14 @@
   -menu 
   -about
   -information: numbers, email, work hours, direction/map, contact form, Q&A, payment and shipment information 
+  -sections: 
+    -every section takes you to the gallery you want
+    -every picture show information about the cake
 
-2 sections: 
-  -every section takes you to the gallery you want
-  -every picture show information about the cake
-
-3 auth:
+2 auth:
 - authenticate user & get token
 
-4 user:
+3 user:
   -register
   -account with information(name, direction, payment info)
   -define role: admin
@@ -20,7 +19,7 @@
     -add or delete something about the menu
     -todo list
 
-5 blog: 
+4 blog: 
   -Add post
   -Delete post
   -Open post 
