@@ -1,10 +1,12 @@
-const { Router } = require("express");
 const express = require("express");
 const router = express.Router();
+const { body } = require("express-validator");
+const userController = require("../../controllers/user");
 
-//@route      GET api/users
+//@route      POST api/users
 //@desc       Test route
-//access      Private
-router.get("/", (req, res) => res.send("Users route"));
+//access      Public
+
+router.post("/", userController.validar);
 
 module.exports = router;
